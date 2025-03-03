@@ -2,6 +2,6 @@ name: test
 on: [push]
 jobs:
     ruff:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-22.04
         steps:
             - run: ldd --version
